@@ -1,7 +1,5 @@
 package com.modUp.beta;
 
-
-
 import com.modUp.beta.model.Clients;
 import com.modUp.beta.repository.ClientsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
