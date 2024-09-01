@@ -17,8 +17,7 @@ public class ClientsService  {
 
 
     public Clients save(Clients name){
-        if(name.getName() == null)
-            throw new ClientNullException();
+
         return repository.save(name);
     }
 

@@ -8,5 +8,4 @@ public class ClientNullException extends NullPointerException{
     private  static final long serialVersionUID = 1L;
 
 
-
 }
