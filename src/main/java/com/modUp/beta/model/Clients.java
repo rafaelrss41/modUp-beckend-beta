@@ -17,9 +17,20 @@ public class Clients {
     private String userName;
     @Column(length = 50, nullable = false)
     private String password;
+    @Column(length = 50,nullable = false)
+    private String email;
 
 
     //getters and setters
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getName(){
         return name;
 
